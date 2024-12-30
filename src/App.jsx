@@ -23,7 +23,9 @@ const App = () => {
           <span className="sm:hidden text-lg">+</span>
         </button>
         <div className="flex justify-between items-center">
-          <h1 className="text-4xl font-bold text-orange-700">Gestión de Tareas</h1>
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-orange-700">
+            Gestión de Tareas
+          </h1>
         </div>
       </div>
       <TaskFilter />
